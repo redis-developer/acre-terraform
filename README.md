@@ -22,7 +22,7 @@ Azure Cache for Redis Enterprise (ACRE)
 2. Subscription ID
 3. Service Principal
    1. Client ID
-    2. Client Secret
+   2. Client Secret
     
 ### Tools
 
@@ -39,6 +39,11 @@ The output should include:
 ```text
   Terraform has been successfully initialized!
 ```
+Copy the variables template.
+```bash
+cp terraform.tfvars.example terraform.tfvars
+```
+Update terraform.tfvars with your [secrets](#secrets)
 ```bash
 terraform plan
 terraform apply
