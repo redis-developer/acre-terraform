@@ -1,6 +1,6 @@
 locals {
   redisgeek_config = {
-    hostname = azurerm_redis_enterprise_cluster.redisgeek.connection
+    hostname = azurerm_redis_enterprise_cluster.redisgeek.hostname
   }
 }
 
