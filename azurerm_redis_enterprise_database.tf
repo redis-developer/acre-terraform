@@ -5,7 +5,5 @@ resource "azurerm_redis_enterprise_database" "redisgeek" {
   clustering_policy = var.azure_redis_enterprise_database_clustering_policy
   module {
     name = "RediSearch"
-    name = "RedisTimeSeries"
-    name = "RedisBloom"
   }
 }
