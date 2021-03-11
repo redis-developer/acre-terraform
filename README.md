@@ -8,6 +8,7 @@ Azure Cache for Redis Enterprise (ACRE)
     - _Service Principal_
     - **Resource Group**
       - **Storage Account**
+        - **Storage Container**
       - **VNET**
         - **Subnet**
       - **Redis Enterprise Cluster**
@@ -26,7 +27,7 @@ Azure Cache for Redis Enterprise (ACRE)
     
 ### Tools
 
-1. Terraform CLI 0.14.1
+1. Terraform CLI 0.14.8
 
 ## Getting started
 
