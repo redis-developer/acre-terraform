@@ -4,5 +4,4 @@ resource "azurerm_subnet" "subnet" {
   name                                           = format("redisgeek-%s", random_string.subnet_name.result)
   resource_group_name                            = azurerm_resource_group.redisgeek.name
   virtual_network_name                           = azurerm_virtual_network.redisgeek.name
-
 }

@@ -10,9 +10,17 @@ special = false
 }
 
 resource "random_string" "storage_account_name" {
-length = 4
-special = false
-upper = false
+  length = 4
+  number = false
+  special = false
+  upper = false
+}
+
+resource "random_string" "storage_container_name" {
+  length = 4
+  number = false
+  special = false
+  upper = false
 }
 
 resource "random_string" "vnet_name" {
@@ -50,4 +58,3 @@ length = 4
 special = false
 upper = false
 }
-
