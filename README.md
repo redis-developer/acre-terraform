@@ -17,17 +17,15 @@ Azure Cache for Redis Enterprise (ACRE)
 
 ## Prerequisites
 
-### Secrets
+Login using an Azure Service Principal
 
-1. Tenant ID
-2. Subscription ID
-3. Service Principal
-   1. Client ID
-   2. Client Secret
+```bash
+az login --service-principal --username APP_ID --tenant TENANT_ID --password [password || /path/to/cert]
+```
     
 ### Tools
 
-1. Terraform CLI 0.14.8
+1. Terraform CLI v1.0.1
 
 ## Getting started
 
